@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+  <title>Home</title>
+  <link rel="icon" href="logoD.ico">
+
+</head>
+
+<body id="homeBody">
+  <section id="home">
+    <div class="home-content vh-100">
+      <nav class="shadow-lg navLog">
+        <div class="container ">
+          <div class="nav-items d-flex justify-content-between align-items-center py-2">
+            <a href="homePage.html" class="text-white text-decoration-none align-self-center">
+              <img src="img/homelogo.jpg" alt="" class="logoHome">
+            </a>
+            <a id="logOutBtn" class="btn btn-logOut catam text-white fw-bold"><i class="fa-solid fa-right-from-bracket px-1 fs-6"></i>Logout</a>
+          </div>
+        </div>
+      </nav>
+
+     
+
+      <div class="modal" tabindex="-1" id="modalLog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header ">
+              <h5 class="modal-title "><i class="fa-solid fa-right-from-bracket px-1 fs-6 text-black"></i></i>Logout</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="btnclose"></button>
+            </div>
+            <div class="modal-body">
+              <span id="userModal"></span>
+              <p>are you sure? </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="Cancel">Cancel</button>
+              <button type="button" class="btn btn-primary" id="sure">Logout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container mt-1 position-relative">
+        <div class="row g-2">
+          <div class="col-md-4">
+            <div class="item position-relative">
+              <img src="img/1c54b5149a9be19485a9fd44da1fe5d8.jpg" class="w-100" alt="">
+
+
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="item position-relative">
+              <img src="img/690cddb7039f3dd0e770500ab6b24661.jpg" class="w-100" alt="">
+
+
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="item position-relative">
+              <img src="img/a0f9adfe6228f1786a9615f27304139e (1).jpg" class="w-100" alt="">
+
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="item position-relative">
+              <img src="img/d2bebacefc133d0332a20c8e97a23e4d.jpg" class="w-100" alt="">
+
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="item position-relative">
+              <img src="img/d4be19633550a8ae2a93f047205a1a0e.jpg" class="w-100" alt="">
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="item position-relative">
+              <img src="img/b7758330e545dca3268bf53494d87af5.jpg" class="w-100" alt="">
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="light-box position-fixed d-none">
+          <div class="light-box-item position-relative d-flex justify-content-between align-items-center">
+            <i class="fa-solid fa-chevron-left prev"></i>
+            <i class="close fa-regular fa-circle-xmark"></i>
+            <i class="next fa-solid fa-chevron-right "></i>
+          </div>
+        </div>
+        <div class="home-content h-75 text-center d-flex justify-content-center position-absolute " id="messesgeW">
+          <div class="content  w-50 boxShadow align-self-center text-captalize bg-black rounded-3 cardo">
+            <p class="p-5" class="text-captalize cardo">Welcome <span id="welcomeMassage" class="text-capitalize"></span> !</p>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/home.js"></script>
+
+
+</body>
+
+</html>
