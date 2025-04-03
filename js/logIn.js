@@ -41,7 +41,7 @@ function enterLog() {
     }
     else {
         if (checkAcc() == true) {
-            location.href = 'homePage.html';
+            location.href = "../homePage.html";
         }
         else {
             alertM('<i class="fa-solid fa-circle-exclamation pe-2"></i>incorrect email or password', 'red')
